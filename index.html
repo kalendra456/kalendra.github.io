@@ -1,21 +1,22 @@
+--- START OF FILE index.html ---
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4G5DVR6FCK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4G5DVR6FCK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-4G5DVR6FCK');
-</script>
+      gtag('config', 'G-4G5DVR6FCK');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yaswanth</title>
+    <title>Yaswanth Kalendra</title> <!-- Added full name for clarity -->
     <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 
@@ -27,7 +28,7 @@
             <h3 class="title-first-name">
                 Yaswanth Kalendra
             </h3>
-           
+            <!-- Removed empty <h3 class="title-last-name"></h3> as it wasn't used here -->
         </div>
         <div>
             <ul class="navbar-menu">
@@ -54,6 +55,7 @@
             </ul>
         </div>
     </section>
+
     <section id="content-body">
         <div class="body-part-1">
             <div class="developer-intro">
@@ -61,42 +63,33 @@
                 <p>Security Enthusiast</p>
             </div>
             <div class="body-title">
-                <!-- <h1>Talk is cheap<br>Show me the code</h1> -->
                 <h1>Cybersecurity Guardian<br>Full-Stack Maestro</h1>
                 <p>Crafting a Secure and User-Centric Digital Tomorrow</p>
                 <a href="https://www.linkedin.com/in/yaswanth-kalendra-kukkala-37b7701a0/">LET'S Connect!</a>
             </div>
-            
         </div>
         <div class="body-part-2">
             <div class="container">
-                
                 <div class="svg-animation">
-                  <img src="assets/cyber.svg">
+                    <!-- Added alt attribute -->
+                    <img src="assets/cyber.svg" alt="Cybersecurity concept illustration">
                 </div>
-              
-                
-                
-              </div>
             </div>
-         
-      
+        </div>
+         <!-- Removed extra </div> here -->
     </section>
+
     <section id="aboutme">
         <div class="body-part-2">
             <div class="container">
-                
                 <div class="svg-animation">
-                  <img src="assets/who.svg">
+                    <!-- Added alt attribute -->
+                    <img src="assets/who.svg" alt="Illustration asking 'Who Am I?'">
                 </div>
-              
-                
-                
-              </div>
             </div>
+        </div>
         <div class="body-part-1">
             <div class="body-title">
-                <!-- <h1>Talk is cheap<br>Show me the code</h1> -->
                 <h1>Who Am I?</h1>
                 <p>Hello, I'm Yaswanth Kalendra, a cybersecurity expert, bug bounty hunter, and full-stack developer based in Andhra Pradesh, Guntur, India. With a passion for securing digital environments, I specialize in identifying vulnerabilities and implementing robust solutions.<br>
                     Cybersecurity Expert: A seasoned cybersecurity professional with a focus on ethical hacking and securing digital environments.<br>
@@ -105,158 +98,139 @@
                     Full Stack Developer: Proficient in full-stack development, bringing a holistic approach to building robust and scalable web applications.<br>
                     Gamer: Enthusiastic about gaming, exploring virtual worlds, and staying updated on the latest trends in the gaming industry.<br>
                     Join me in my journey through Full-stack development and cybersecurity - let's learn and grow together!
-                     </p>
+                 </p>
                 <a href="https://www.linkedin.com/in/yaswanth-kalendra-kukkala-37b7701a0/">LET'S Connect!</a>
             </div>
-         
         </div>
-       
-              
-                
-                
-              </div>
-            </div>
-         
-      
+         <!-- Removed 2 extra </div> tags here -->
     </section>
 
-       <section id="introduction">
-          <div class="heading-container">
-             <h3 class="section-heading">Experience</h3>
+    <section id="introduction">
+        <div class="heading-container">
+            <h3 class="section-heading">Experience</h3>
             <p>Bug Bounty Research & Tech Services</p>
-           </div>
+        </div>
 
-             <div class="cards-container">
-               <div class="cards">
+        <div class="cards-container">
+            <div class="cards">
 
                <!-- HackerOne Report -->
                <div class="design-card active">
-                <div>
-                   <h3>First HackerOne Report</h3>
-                   <i class="fa-solid fa-bug"></i>
-                </div>
+                   <div>
+                       <h3>First HackerOne Report</h3>
+                       <i class="fa-solid fa-bug"></i>
+                   </div>
                    <p>Submitted a valid vulnerability through HackerOne’s platform.</p>
                    <p><a href="https://hackerone.com/reports/1848730" target="_blank">View Report</a></p>
                </div>
 
-      <!-- Accenture Hall of Fame -->
-      <div class="design-card">
-        <div>
-          <h3>Accenture Hall of Fame</h3>
-          <i class="fa-solid fa-trophy"></i>
-        </div>
-        <p>Listed in Accenture's Hall of Fame for responsible disclosure.</p>
-        <p><a href="https://accenture.responsibledisclosure.com/hc/en-us/articles/360040573233-Acknowledgments" target="_blank">View</a></p>
-      </div>
+               <!-- Accenture Hall of Fame -->
+               <div class="design-card">
+                   <div>
+                       <h3>Accenture Hall of Fame</h3>
+                       <i class="fa-solid fa-trophy"></i>
+                   </div>
+                   <p>Listed in Accenture's Hall of Fame for responsible disclosure.</p>
+                   <p><a href="https://accenture.responsibledisclosure.com/hc/en-us/articles/360040573233-Acknowledgments" target="_blank">View</a></p>
+               </div>
 
-      <!-- Private Programs -->
-      <div class="design-card">
-        <div>
-          <h3>Private Programs</h3>
-          <i class="fa-solid fa-lock"></i>
-        </div>
-        <p>Reported 50+ vulnerabilities across private programs on HackerOne and other platforms.</p>
-      </div>
+               <!-- Private Programs -->
+               <div class="design-card">
+                   <div>
+                       <h3>Private Programs</h3>
+                       <i class="fa-solid fa-lock"></i>
+                   </div>
+                   <p>Reported 50+ vulnerabilities across private programs on HackerOne and other platforms.</p>
+               </div>
 
-      <!-- Vulnerability Research -->
-      <div class="design-card">
-        <div>
-          <h3>Web Vulnerabilities</h3>
-          <i class="fa-solid fa-shield-halved"></i>
-        </div>
-        <p>Skilled in Injection, XSS, File Upload flaws, and Broken Authentication issues. Focused on secure coding and real-world impact.</p>
-      </div>
+               <!-- Vulnerability Research -->
+               <div class="design-card">
+                   <div>
+                       <h3>Web Vulnerabilities</h3>
+                       <i class="fa-solid fa-shield-halved"></i>
+                   </div>
+                   <p>Skilled in Injection, XSS, File Upload flaws, and Broken Authentication issues. Focused on secure coding and real-world impact.</p>
+               </div>
 
-      <!-- Hardware Services -->
-      <div class="design-card">
-        <div>
-          <h3>PC & Laptop Services</h3>
-          <i class="fa-solid fa-computer"></i>
-        </div>
-        <p>Experienced in PC builds and hardware-level laptop repairs and upgrades.</p>
-      </div>
-        </div>
-    </div>
-        
-        </div>
+               <!-- Hardware Services -->
+               <div class="design-card">
+                   <div>
+                       <h3>PC & Laptop Services</h3>
+                       <i class="fa-solid fa-computer"></i>
+                   </div>
+                   <p>Experienced in PC builds and hardware-level laptop repairs and upgrades.</p>
+               </div>
+            </div> <!-- This div.cards closing tag was correct -->
+             <!-- Removed extra </div> here -->
+        </div> <!-- This div.cards-container closing tag was correct -->
+
         <div class="image-container">
             <div class="body-part-2">
                 <div class="container">
-                    
                     <div class="svg-animation">
-                      <img src="assets/project.svg">
+                        <!-- Added alt attribute -->
+                        <img src="assets/project.svg" alt="Illustration showing projects or work">
                     </div>
-                  
                 </div>
-                    
-                  </div>
-                </div>
+            </div>
+             <!-- Removed 2 extra </div> tags here -->
+        </div>
     </section>
+
     <section id="skill">
         <div class="heading-container">
             <h3 class="section-heading">Skills</h3>
-            
-           
         </div>
+
         <div class="image-container">
             <div class="body-part-2">
                 <div class="container">
-                    
                     <div class="svg-animation">
-                      <img src="assets/skill.svg">
+                        <!-- Added alt attribute -->
+                        <img src="assets/skill.svg" alt="Illustration representing skills">
                     </div>
-                  
                 </div>
-                    
-                  </div>
-                </div>
+            </div>
+             <!-- Removed 2 extra </div> tags here -->
+        </div>
+
         <div class="cards-container">
-        <div class="cards">
-           
-            <div class="design-card active">
-                <div>
-                    <h3>Cybersecurity</h3>
-                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <div class="cards">
+                <div class="design-card active">
+                    <div>
+                        <h3>Cybersecurity</h3>
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <p>Threat Detection • Network Security • Cybersecurity Architecture • Ethical Hacking • Social Engineering • Information Security Management System (ISMS) • IT Audit • IT Security Assessments • Penetration Testing</p>
                 </div>
-                <p>Threat Detection • Network Security • Cybersecurity Architecture • Ethical Hacking • Social Engineering • Information Security Management System (ISMS) • IT Audit • IT Security Assessments • Penetration Testing</p>
-                
-            </div>
-            <div class="design-card">
-                <div>
-                    <h3>Web Development</h3>
-                    <i class="fa-solid fa-code"></i>
+                <div class="design-card">
+                    <div>
+                        <h3>Web Development</h3>
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <p>Java • Python • SQL • Full-Stack Development • JavaScript • HTML • Cascading Style Sheets (CSS) • Sail point • PHP</p>
                 </div>
-                <p>Java • Python • SQL • Full-Stack Development • JavaScript • HTML • Cascading Style Sheets (CSS) • Sail point • PHP</p>
-                
+                 <!-- Removed extra </div> here -->
             </div>
-            
-            
-        </div>
-    </div>
-        
-        </div>
-      
+        </div> <!-- This div.cards-container closing tag was correct -->
+         <!-- Removed extra </div> here -->
     </section>
- 
+
     <section id="footer">
         <div class="footer-left">
-            <form
-            action="https://formspree.io/f/xpzvqwad"
-method="POST">
+             <!-- Moved form tag to wrap only form elements -->
             <h2>Let's make something amazing together</h2>
-
-            <div class="email-form">
-                   
-                <h2>Start by <span>saying hi</span></h2>
-               
-                <input type="text" name="name" id="" placeholder="Your name">
-                <input type="email" name="email" id="" placeholder="Email Address">
-                <div>
-                    <input type="number" name="phone-number" id="" placeholder="Phone number">
-                    <button type="submit">Send</button>
+            <form action="https://formspree.io/f/xpzvqwad" method="POST">
+                <div class="email-form">
+                    <h2>Start by <span>saying hi</span></h2>
+                    <input type="text" name="name" id="name" placeholder="Your name" required> <!-- Added id and required -->
+                    <input type="email" name="email" id="email" placeholder="Email Address" required> <!-- Added id and required -->
+                    <div>
+                        <input type="tel" name="phone-number" id="phone-number" placeholder="Phone number"> <!-- Changed type to tel, added id -->
+                        <button type="submit">Send</button>
+                    </div>
                 </div>
-                    </form>
-            </div>
+            </form> <!-- Moved closing form tag here -->
 
             <div class="footer-title">
                 <h3 class="title-first-name">
@@ -278,26 +252,25 @@ method="POST">
                     <li><a class="profile-card-active" href="#aboutme"> About </a></li>
                     <li><a class="profile-card-active" href="#introduction">Works</a></li>
                     <li><a class="profile-card-active" href="#skill">Skills</a></li>
-                  
                 </ul>
             </div>
             <div class="social-icons">
-                <a href="https://www.linkedin.com/in/yaswanth-kalendra-kukkala-37b7701a0/" target="_blank">
+                <a href="https://www.linkedin.com/in/yaswanth-kalendra-kukkala-37b7701a0/" target="_blank" aria-label="LinkedIn Profile"> <!-- Added aria-label -->
                     <i class="fa-brands fa-linkedin-in"></i>
                 </a>
-                <a href="https://github.com/kalendra456" target="_blank">
+                <a href="https://github.com/kalendra456" target="_blank" aria-label="GitHub Profile"> <!-- Added aria-label -->
                     <i class="fa-brands fa-github"></i>
                 </a>
-                
-              
-                <a href="https://www.instagram.com/kalendra_ethical_hacker/" target="_blank">
+                <a href="https://www.instagram.com/kalendra_ethical_hacker/" target="_blank" aria-label="Instagram Profile"> <!-- Added aria-label -->
                     <i class="fa-brands fa-instagram"></i>
                 </a>
-            
             </div>
         </div>
     </section>
+
     <script src="script.js"></script>
 </body>
 
 </html>
+
+--- END OF FILE index.html ---
